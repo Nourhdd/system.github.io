@@ -37,7 +37,7 @@
 <body>
     <h1>Enter Your Information</h1>
 
-    <form method="post">
+    <form method="GET">
         {% csrf_token %}
         <label for="first_name">First Name:</label>
         <input type="text" id="first_name" name="first_name" required>
